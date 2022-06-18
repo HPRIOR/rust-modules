@@ -1,12 +1,13 @@
+# Modules
 Modules are imported using the mod keyword, followed by the name of the module. 
 
 ```rust
 mod module_name;
 ```
 
-The members of this module will be accessable in the file its imported too. 
+The members of this module will be accessable in the file it is imported to. 
 
-To make the imported module externally visiable (for example to areas of code that import the module importing the module), you can use the public keyword
+To make the imported module externally visible (for example to areas of code that import a module that's importing another the module), you can use the public keyword.
 
 ```rust
 pub mod module_name
@@ -23,6 +24,8 @@ pub fn use_super_module(){
 ```
 
 Using private and public modules allows for encapsulation at a module level.
+
+
 
 
 
