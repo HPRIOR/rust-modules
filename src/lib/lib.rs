@@ -1,4 +1,4 @@
-mod module_one; // importing module
+mod module_one; // importing module (declared with mod.rs)
 
 pub fn lib_func() {
     println!("this can be called from main");

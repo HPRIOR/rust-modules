@@ -1,3 +1,4 @@
+// mod file used to declare directory level module
 use crate::module_one::encapsulate::public_func;
 
 pub mod nested_module; // declaring the nested module public so that it can be used 
